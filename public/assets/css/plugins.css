@@ -1,0 +1,139 @@
+:root {
+    --primary-bg-color: #6b82fe;
+}
+
+.timeline {
+    position: relative;
+    border-color: rgba(160, 175, 185, 0.15);
+    padding: 0;
+    margin: 0;
+}
+
+.timeline p {
+    font-size: 0.87em;
+}
+
+.timeline .p-4 {
+    padding: 1.5rem !important;
+}
+
+.timeline .block,
+.timeline .mb-4,
+.timeline .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.timeline .tl-item {
+    border-radius: 3px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.timeline .tl-item > * {
+    padding: 10px;
+}
+
+.timeline .tl-item.active .tl-dot:before {
+    border-color: #448bff;
+    box-shadow: 0 0 0 4px rgba(68, 139, 255, 0.2);
+}
+
+.timeline .tl-item:last-child .tl-dot:after {
+    display: none;
+}
+
+.timeline .tl-item.active .tl-dot:before {
+    border-color: #448bff;
+    box-shadow: 0 0 0 4px rgba(68, 139, 255, 0.2);
+}
+
+.timeline .tl-dot {
+    position: relative;
+    border-color: rgba(160, 175, 185, 0.15);
+}
+
+.timeline .tl-dot:after,
+.timeline .tl-dot:before {
+    content: "";
+    position: absolute;
+    border-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline .tl-dot:after {
+    width: 0;
+    height: auto;
+    top: 25px;
+    bottom: -15px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0;
+}
+
+.timeline .tl-item.active .tl-dot:before {
+    border-color: #448bff;
+    box-shadow: 0 0 0 4px rgba(68, 139, 255, 0.2);
+}
+
+.timeline .tl-dot {
+    position: relative;
+    border-color: rgba(160, 175, 185, 0.15);
+}
+
+.timeline .tl-dot:after,
+.timeline .tl-dot:before {
+    content: "";
+    position: absolute;
+    border-color: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline .tl-dot:after {
+    width: 0;
+    height: auto;
+    top: 25px;
+    bottom: -15px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0;
+}
+
+.timeline .tl-content p:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .tl-date {
+    font-size: 0.85em;
+    margin-top: 2px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.timeline .b-verifikasi {
+    border-color: #00ff3c !important;
+}
+
+.timeline .b-input {
+    border-color: #448bff !important;
+}
+
+.timeline .b-danger {
+    border-color: #f40b07 !important;
+}
